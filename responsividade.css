@@ -1,0 +1,23 @@
+@media screen and (max-width:700px) {
+    main .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        font-size: 10px;
+    }
+    .trabalhos {
+        display: flex;
+        justify-content: center;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and(min-width:1000px) {
+    .topo {
+        width: 50%;
+    }
+}

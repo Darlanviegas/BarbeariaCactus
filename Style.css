@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Bowlby+One+SC&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Bowlby+One+SC&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url(/reforma-de-barbearia.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+    width: 250px;
+    height: 300px;
+}
+
+.logo {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+}
+
+.quem-somos {
+    border: solid 4px #ebbb2d;
+    border-image: linear-gradient(227.91deg, #ebbb2d 0%, #f7d263 100%)1;
+    text-align: center;
+    height: 50vh;
+    width: 20vw;
+    font-family: 'Bowlby One SC';
+}
+
+.servicos {
+    border: solid 4px #ebbb2d;
+    border-image: linear-gradient(227.91deg, #ebbb2d 0%, #f7d263 100%)1;
+    text-align: center;
+    height: 50vh;
+    width: 20vw;
+    font-family: 'Bowlby One SC';
+}
+
+.horario {
+    border: solid 4px #ebbb2d;
+    border-image: linear-gradient(227.91deg, #ebbb2d 0%, #f7d263 100%)1;
+    text-align: center;
+    height: 50vh;
+    width: 20vw;
+    font-family: 'Bowlby One SC';
+}
+
+.agendamento {
+    border: solid 4px #ebbb2d;
+    border-image: linear-gradient(227.91deg, #ebbb2d 0%, #f7d263 100%)1;
+    text-align: center;
+    height: 50vh;
+    width: 20vw;
+    font-family: 'Bowlby One SC';
+}
+
+
+/*Revisado*/
+
+p {
+    padding: 20px;
+    font-family: 'Tangerine';
+    font-size: 45px;
+}
+
+
+/*Revisado*/
+
+h3 {
+    background-color: #ebbb2d;
+    font-size: 30px;
+}
+
+
+/*Revisado*/
+
+.logo {
+    font-family: 'Bowlby One SC';
+    color: #ebbb2d;
+    font-size: 30px;
+    text-shadow: 2px 2px white;
+    margin: 20px;
+}
+
+
+/*Revisado*/
+
+.nav {
+    display: flex;
+    margin: 20px;
+}
+
+
+/*Revisado*/
+
+i {
+    color: #ebbb2d;
+    margin: 10px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 30%;
+    padding: 8px;
+}
+
+
+/*Revisado*/
+
+i:hover {
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+    background-color: #ebbb2d;
+    border-radius: 30%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+footer p {
+    font-family: 'Bowlby One SC';
+    font-size: small;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trabalhos {
+    font-family: 'Bowlby One SC';
+    text-align: center;
+    font-size: 30px;
+}
+
+.carrosel-cortes {
+    margin: 20px;
+}
+
+h1 {
+    background-color: #ebbb2d;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+.botao {
+    background-color: black;
+    font-size: 20px;
+    color: #ebbb2d;
+    height: 30px;
+    width: 120px;
+    border: none;
+    font-family: 'Bowlby One SC';
+    border-radius: 50px;
+}
+
+.botao:hover {
+    background-color: #ebbb2d;
+    color: black;
+    cursor: pointer;
+}
+
+.owl-carousel img {
+    width: 800px;
+    height: 500px;
+}
